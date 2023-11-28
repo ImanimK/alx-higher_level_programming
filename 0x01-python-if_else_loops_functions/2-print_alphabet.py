@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for c in range('a', 'z'+1)
-	print(f')
+for i in range(97, 123):
+    print("{:c}".format(i), end='')
